@@ -1,0 +1,51 @@
+
+.center {
+    margin: auto;
+    width: 80%;
+    border: 3px solid white;
+    padding: 10px;
+    padding-bottom: 40px;
+
+    background-color:red;
+  }
+
+h1{
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    color: silver;
+}
+.but{
+    
+    width: 100%;
+    height: 100%;
+    
+    display: inline-block;
+    background-color: silver; /* Green */
+}
+.center1{
+    margin: auto;
+    width: 79%;
+    /* background-color: aqua; */
+    font-size: medium;
+
+}
+.fa-check{
+    color: silver;
+}
+#updateBtn, #addBtn{
+    /* margin-top: 20px; */
+    padding: 0;
+    display: inline-block;
+    background-color: silver;
+}
+#updateBtn{
+    display: none;
+}
+#table-container table{
+    width: 100%;
+}
+/* table, td{
+    border: 1px solid lightgray;
+    text-align: center;
+} */
