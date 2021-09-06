@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" /> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="notes9.css">
+</head>
+<body>
+    <div class="center">
+        <h1>My To Do List</h1>
+            <div class="row">
+                
+                <div class="col-sm-10">
+                    <input type="text" id="notes" size="140" placeholder="Enter some text here..."/> 
+                </div>
+                
+                <div class="col-sm-2">
+                    <input type="button" value="Add" class="u-full-width" onclick="addNotes()" id="addBtn"/>
+                    <input type="button" value="Update" class="u-full-width" onclick="updateNotes()" id="updateBtn"/>
+                </div>
+                
+            </div>
+    </div>
+    
+      
+
+    <div class="center1">
+        
+        <div id="table-container" class="table table-striped table-hover">
+                   
+        </div>
+    </div>
+    <script src="notes10.js"></script>
+</body>
+</html>
